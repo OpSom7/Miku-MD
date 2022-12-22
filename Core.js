@@ -1334,7 +1334,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Fantox to take your WhatsApp usage into next level.
+    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot modified by: Nexxer to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1377,8 +1377,8 @@ return list[Math.floor(list.length * Math.random())]
 //Some special chat replies
 	
  let smallinput = budy.toLowerCase()
-    if (smallinput.includes('hello')) {
-      reply (`Hello *${pushname}*, I am *${BotName}*. How can i help you?`);
+    if (smallinput.includes('hello Hinata')) {
+      reply (`Hello *${pushname}*, I am *${BotName}*. How was your day?`);
     } 
 
     if( smallinput.includes('konichiwa') || smallinput.includes('konochiwa') || smallinput.includes('konichiba') || smallinput.includes('salute')){
@@ -1386,7 +1386,7 @@ return list[Math.floor(list.length * Math.random())]
     }
    
     if (smallinput=='bot') {
-      reply (`Hello *${pushname}*, I am *${BotName}*, a WhatsApp bot made by *Fantox* and currently being hosted by *${OwnerName}*.  type  *${prefix}help* to get my full command list.`);
+      reply (`Hello *${pushname}*, I am *${BotName}*, a WhatsApp bot modified by *Nexxer* and currently being hosted by *${OwnerName}*.  type  *${prefix}help* to get my full command list.`);
     }
 
     if (smallinput=='lol') {
@@ -1397,16 +1397,16 @@ return list[Math.floor(list.length * Math.random())]
         reply (`Hehe`)
     }
 
-    if (smallinput.includes('good morning') || smallinput.includes('ohayo')) {
-      reply (`Good morning to you too *${pushname}* ☺️. Have a great day 😇.`);
+    if (smallinput.includes('Gm Hinata') || smallinput.includes('ohayo')) {
+      reply (`Good morning to you too *${pushname}* 😙. Have a great day 😸.`);
     }
 
-    if (smallinput.includes('good night')) {
-      reply (`Good night to you too *${pushname}* 😇. Sleep well and sweet dreams.`);
+    if (smallinput.includes('gn hinata')) {
+      reply (`Good night to you too *${pushname}* 😳. Sleep well and sweet dreams😚.`);
     }
 
     if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('thank')) {
-      reply (`Mention not *${pushname}* 😇. I am a bot afterall.`);
+      reply (`Mention not *${pushname}* 😇.`);
     }      
 
 switch(command) {
@@ -1426,12 +1426,12 @@ switch(command) {
     buttons: buttons,
     headerType: 4,
     /*contextInfo:{externalAdReply:{
-    title:"Powered by Fantox",
+    title:"Powered by Ɲᴇꪎꪎᴇʀ  ꢺᴀϻᴀ",
     body: " ", 
     thumbnail: fs.readFileSync("Assets/pic2.jpg"),
     mediaType:1,
-    mediaUrl: 'https://wallpapercave.com/wp/wp10524580.jpg',
-    sourceUrl: "https://wallpapercave.com/wp/wp10524580.jpg"
+    mediaUrl: 'https://telegra.ph/file/37c0c3344c0d40937d28d.jpg',
+    sourceUrl: "https://telegra.ph/file/37c0c3344c0d40937d28d.jpg"
     }}*/
 
     }
@@ -1459,7 +1459,7 @@ case 'me': case 'profile': case 'p':
     
           } catch (e) {
      
-      pfp ='https://wallpapercave.com/wp/wp10524580.jpg'
+      pfp ='https://telegra.ph/file/fb885d0397c4a365c8c9f.jpg'
     }
 
      const profilexx = `*「  Profile Info  」*\n\n*User Name* : ${pushname}\n*Bio* : ${bioo}\n*Group Admin Status* : ${adn}\n*Level* : ${levelMenu}\n*Exp* : ${xpMenu} out of ${reqXp}\n*Role* : ${role}`
@@ -1512,7 +1512,7 @@ replay('This Group has been *unbanned* from using me!')
 
 case 'support': case 'supportgc':
     
-    reply(`*My developer's group:* http://gg.gg/MikuSupport`)
+    reply(`*My developer's group:* https://chat.whatsapp.com/KJfMHtYVNuI6h3OT2XIfqy`)
     break
 
 case 'repo': case 'botrepo':
@@ -4798,7 +4798,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
       
  const helpmenu = `Konichiwa *${pushname}* Senpai,
 
-I am *Miku Nakano*, a bot developed by *Fantox*.
+I am *Ｈｉｎａｔａ💖*, a bot Modified by *Ɲᴇꪎꪎᴇʀ  ꢺᴀϻᴀ*.
 
 🔰 My prefix is:  ${prefix}
 
@@ -4808,7 +4808,7 @@ Here's the list of my Commands.
  
  *━━━〈  🎆 Core 🎆  〉━━━*
 
-speak, miku, stalk, profile, help, delete, deleteall, listgc, listpc, welcome, support, repo, script, admin 
+speak, Hinata, stalk, profile, help, delete, deleteall, listgc, listpc, welcome, support, repo, script, admin 
  
  *━━━〈  🎀 Owner 🎀  〉━━━*
 
@@ -4872,7 +4872,7 @@ qr, say, translate, fliptext, toletter, weather
 
 
  『  *${global.BotName}*  』
- Powered by: *Fantox*
+ Powered by: *Ɲᴇꪎꪎᴇʀ  ꢺᴀϻᴀ*
 
  🔰 To use any of these commands type 
  " *${prefix}<Command name>* ".
@@ -4924,11 +4924,11 @@ break
 
 
 
-case 'miku':
+case 'Hinata':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `Do you love Miku? Then we are the same.`
+const txt = `Do you love Hinata? Then we are the same.`
 const mikuarray= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/miku-nakano-nakano-miku.mp4",
