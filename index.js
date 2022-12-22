@@ -73,7 +73,7 @@ Miku.ev.on('groups.update', async pea => {
        try {
        ppgc = await Miku.profilePictureUrl(pea[0].id, 'image')
        } catch {
-       ppgc = 'https://wallpapercave.com/wp/wp10524580.jpg'
+       ppgc = 'https://telegra.ph/file/80ad100b5cf0a2e4f595d.jpg'
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
@@ -92,7 +92,7 @@ Miku.ev.on('groups.update', async pea => {
         try {
         ppgc = await Miku.profilePictureUrl(pea[0].id, 'image')
         } catch {
-        ppgc = 'https://wallpapercave.com/wp/wp10524580.jpg'
+        ppgc = 'https://telegra.ph/file/973e9122234fe778308bc.jpg'
         }
         let wm_fatih = { url : ppgc }
         if (pea[0].announce == true) {
@@ -171,7 +171,23 @@ Miku.sendMessage(anu.id, buttonMessage)
                     mikutext = `
 Sayonara 👋, @${WAuserName.split("@")[0]},
 
-I hope you will come back soon, but we are not going to miss you though!
+𝙰𝚗𝚘𝚝𝚑𝚎𝚛 𝚅𝚒𝚛𝚐𝚒𝚗 𝙻𝚎𝚏𝚝✨, 𝙱𝚞𝚝 𝚆𝚎 𝙰𝚛𝚎 𝙽𝚘𝚝 𝙶𝚘𝚒𝚗𝚐 𝚃𝚘 𝙼𝚒𝚜𝚜 𝚈𝚘𝚞 𝚃𝚑𝚘𝚞𝚐𝚑!🐧.*
+
+╭━━╮
+
+┃╭╮┃
+
+┃╰╯╰┳╮╱╭┳━━╮
+
+┃╭━╮┃┃╱┃┃┃━┫
+
+┃╰━╯┃╰━╯┃┃━┫
+
+╰━━━┻━╮╭┻━━╯
+
+╱╱╱╱╭━╯┃
+
+╱╱╱╱╰━━╯
 `
 
     let buttonMessage = {
